@@ -27,7 +27,7 @@ public class WebSocketClient {
     }
 
     public static void main(String[] args) {
-        String serverUri = "wss://socket.api.com/dev?school_id="+ userId;       //change the socket link
+        String serverUri = "wss://socket.api.com/dev?userId="+ userId;       //change the socket link
 
         WebSocketContainer container = ContainerProvider.getWebSocketContainer();
         try {
